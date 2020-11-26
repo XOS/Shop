@@ -12,7 +12,7 @@ class UsersSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert([
-            'email' => 'admin@qq.com',
+            'email' => 'admin@nange.cn',
             'password' => bcrypt('123456'),
             'created_at' => \Carbon\Carbon::now(),
         ]);
