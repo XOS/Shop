@@ -3199,7 +3199,6 @@
                         t.bottomNav = n;
                         var i = ["购买商品", "查询记录", "投诉订单"][r];
                         return window.config.shop && window.config.shop.name && (0 === r ? i = window.config.shop.name : i += " - " + window.config.shop.name),
-                        window.document.title = i,
                         Object.keys(a).length && (n += "?" + f(a)),
                         n
                     }
